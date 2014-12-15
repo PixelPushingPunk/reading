@@ -52,7 +52,7 @@
 .visit-popup-container--inner .visit-red {
 
 	display:table-cell;
-	width:20%;
+	width:10%;
 	height:100%;
 	/*background:rgba(210, 0, 46, 0.8);*/
 	background:transparent;
@@ -66,13 +66,21 @@
 	width:100%;
 	min-height:100px;
 	background:rgba(210, 0, 46, 1);
+	max-width:100px;
 
 }
 
 .visit-popup-container--inner .visit-red .campus.active {
 
-	background:rgba(210, 0, 46, 0.8);
-	
+	/*background:rgba(210, 0, 46, 0.8);*/
+	background: repeating-linear-gradient(
+	  300deg,
+	  rgba(210, 0, 46, 0.5),
+	  rgba(210, 0, 46, 0.5) 3px,
+	  rgba(210, 0, 46, 0.4) 3px,
+	  rgba(210, 0, 46, 0.4) 6px
+	);
+
 }
 
 .visit-popup-container--inner .visit-red .campus .campus-title {
@@ -93,7 +101,7 @@
 .visit-popup-container--inner .visit-black {
 
 	display:table-cell;
-	width:80%;
+	width:90%;
 	height:100%;
 	background:rgba(0, 0, 0, 0.8);
 
