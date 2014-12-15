@@ -24,37 +24,52 @@
 
 
 			map.set('styles', [
-			{
-				featureType: 'road',
-				elementType: 'geometry',
-				stylers: [
-				  { color: '#000000' },
-				  { weight: 1.6 }
-				]
+				{
+					featureType: 'road',
+					elementType: 'geometry',
+					stylers: [
+					  	{ color: '#CCCCCC' },
+					  	{ weight: 4.6 }
+					]
 				}, {
-				featureType: 'road',
-				elementType: 'labels',
-				stylers: [
-				  { saturation: -100 },
-				  { invert_lightness: true }
-				]
+					featureType: 'road',
+					elementType: 'labels',
+					stylers: [
+
+						{ saturation: -100 },
+					  	{ invert_lightness: true },
+					  	{ weight: 2 }
+					]
 				}, {
-				featureType: 'landscape',
-				elementType: 'geometry',
-				stylers: [
-				  { hue: '#ffff00' },
-				  { gamma: 1.4 },
-				  { saturation: 82 },
-				  { lightness: 96 }
-				]
+					featureType: 'road',
+					elementType: 'labels.text.stroke',
+					stylers: [
+						{ color: '#CCCCCC' }
+					]
+				},
+				{
+					featureType: 'landscape',
+					elementType: 'geometry',
+					stylers: [
+					  	{ hue: '#ffff00' },
+					  	{ gamma: 1.4 },
+					  	{ saturation: 82 },
+					  	{ lightness: 96 }
+					]
 				}, {
-				featureType: 'poi.school',
-				elementType: 'geometry',
-				stylers: [
-				  { hue: '#fff700' },
-				  { lightness: -15 },
-				  { saturation: 99 }
-				]
+					featureType: 'poi.school',
+					elementType: 'geometry',
+					stylers: [
+					  	{ hue: '#fff700' },
+					  	{ lightness: -15 },
+					  	{ saturation: 99 }
+					]
+				}, {
+					featureType: 'poi.business',
+					elementType: 'labels.icon',
+					stylers: [
+						{ color: '#333333' }
+					]
 				}
 			]);
 
