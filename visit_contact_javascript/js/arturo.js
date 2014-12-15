@@ -82,9 +82,15 @@
 	})();
 
 
+	
+
+
 	document.addEventListener('DOMContentLoaded', function () {
 
-		upDown.init();
+		/*
+			up | down animation
+		*/
+			upDown.init();
 
 	}, false);
 
